@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1358bfdf-60f7-4659-b730-89a9879a5cd3}</ProjectGuid>
-    <RootNamespace>kadai1</RootNamespace>
+    <ProjectGuid>{edbc4f9a-c978-440c-ab19-fce58b31a78f}</ProjectGuid>
+    <RootNamespace>ConsoleApplication5</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,11 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="disp.cpp" />
-    <ClCompile Include="kadai1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="disp.h" />
+    <ClCompile Include="ConsoleApplication5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
