@@ -18,8 +18,9 @@ int main()
         {"eeee\0",50}
     };
 
-    //int Sum = 
-
+    int Sum = StuData[0].score + StuData[1].score + StuData[2].score + StuData[3].score + StuData[4].score;
+    float Ave = (float)Sum / 5;
+    printf("平均点:%d\n",Ave);
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
