@@ -1,26 +1,23 @@
-﻿// kadai4-2.cpp : このファイルには 'main' 関数が含まれています。プログラム実行の開始と終了がそこで行われます。
+﻿// ConsoleApplication6.cpp : このファイルには 'main' 関数が含まれています。プログラム実行の開始と終了がそこで行われます。
 //
 
 #include <iostream>
-struct StudentData
-{
-    char name[9];
-    int score;
-};
+
 
 int main()
 {
-    StudentData StuData[5] = {
-        {"aaaa\0",90},
-        {"bbbb\0",80},
-        {"cccc\0",70},
-        {"dddd\0",60},
-        {"eeee\0",50}
-    };
+    int array[4];
+    for (int i = 0; i < 4; ++i) {
+        printf("%p\n", &array[i]);
+    }
 
-    int Sum = StuData[0].score + StuData[1].score + StuData[2].score + StuData[3].score + StuData[4].score;
-    float Ave = (float)Sum / 5;
-    printf("平均点:%f\n",Ave);
+    printf("--------\n");
+
+    int* p = array;
+    for (int i = 0; i < 4; ++i) {
+        printf("%p\n", &p);
+        p++;
+    }
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
