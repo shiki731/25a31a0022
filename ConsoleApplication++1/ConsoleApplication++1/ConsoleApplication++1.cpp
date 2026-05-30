@@ -1,18 +1,32 @@
-﻿// kadai5-1.cpp : このファイルには 'main' 関数が含まれています。プログラム実行の開始と終了がそこで行われます。
+﻿// ConsoleApplication++1.cpp : このファイルには 'main' 関数が含まれています。プログラム実行の開始と終了がそこで行われます。
 //
 
 #include <iostream>
-
+#include"MyClass.h"
+#include"Animal.h"
 
 
 int main()
 {
-    int* swap; {
+    Animal animal1;
 
-    }
+    Animal animal2("猛獣", 4);
 
+    
 
 }
+
+/*
+    MyClass myclass;
+    myclass.valueA = 1;
+
+    myclass.fanctionA();
+
+    MyClass* myclassPtr = &myclass;
+    myclassPtr->valueA = 2;
+
+    MyClass::valueB = 2;
+    */
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
 // プログラムのデバッグ: F5 または [デバッグ] > [デバッグの開始] メニュー
