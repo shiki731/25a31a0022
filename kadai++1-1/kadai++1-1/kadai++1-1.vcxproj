@@ -124,6 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="kadai++1-1.cpp" />
+    <ClCompile Include="MyClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
